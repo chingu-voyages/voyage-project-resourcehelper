@@ -28,8 +28,10 @@ from the
 channel in Chingus Discord community.
 
 In addition, you'll be using the free tier of the
-[Google Gemini API](https://ai.google.dev/api?lang=node) to implement an interactive help
-facility for users of your app.
+[Google Gemini API](https://ai.google.dev/api?lang=node) to implement an interactive AI
+agent into the app to allow users to get help information. This means you will need to add 
+_context_ about this app in your API calls. You can find simplified example of how to do
+this in [_add link here_]().
 
 Resource Helper will help you build and refine your web development skills. It will also
 let you add new skills that will help you build skills and experience using AI.
@@ -70,8 +72,8 @@ your app once you complete these basic requirements.
 #### Structure
 
 * [ ] This is a frontend application.
-* [ ] You may use any languages, tools, or libraries you prefer when designing and building this app.
-* [ ] You may **_NOT_** use AI-based solution generators like GitHub Copilot.
+* [ ] You may use any languages, tools, or libraries your team agrees on to design and build this app.
+* [ ] You may use AI for research. But, you may **_NOT_** use it to create code for your app.
 
 #### Styling
 
@@ -83,15 +85,15 @@ your app once you complete these basic requirements.
 
 * Application Overview
 
-  * [ ] Develop an application that helps users become more effective at building
-  meaningful AI prompts.
+  * [ ] Develop an application that helps users find technical information.
   * [ ] Ensure the application is user-friendly, accessible, and visually appealing.
   * The landing page contains these components:
     * [ ] A _header_ containing the name of the app and the current date
     * [ ] A _footer_ that links to your GitHub repo and a list of who is on the team.
-    * [ ] A _Pentagram input form_ to allow the user to enter the various parts that make up the
-    Pentagram structure.
-    * [ ] A _result_ area that will contain the results returned from Gemini.
+    * [ ] An input form to allow the user to select any combination of categories and search terms used to select items.
+    * [ ] A scrollable _result_ area containing the search results.
+    * [ ] A chat icon that will display a popup when clicked to allow the user to ask for
+    help from the AI agent you build into the app.
 
     ![Page Wireframe](./assets/Page_Wireframe.png)
 
@@ -136,8 +138,9 @@ following optional stretch goals. Make sure that any of these you choose to
 implement match the capabilities of your tier and the resources (e.g. time &
 knowledge) availble to your team.
 
-* [ ] Allow the user to display more information about how to use each field
-in the input form. This should be implemented individually for each field.
+* [ ] Since there may be a large number of items returned through the API consider
+retrieving the min _pages_ to limit the performance impact of retrieving and displaying
+everything.
 
 * [ ] Personalize the application by collecting the user's name and including it
 in labels, alerts, and error message.
