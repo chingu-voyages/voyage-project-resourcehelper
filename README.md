@@ -31,7 +31,7 @@ In addition, you'll be using the free tier of the
 [Google Gemini API](https://ai.google.dev/api?lang=node) to implement an interactive AI
 agent into the app to allow users to get help information. This means you will need to add 
 _context_ about this app in your API calls. You can find simplified example of how to do
-this in [_add link here_]().
+this in the `src` directory of this repo.
 
 Resource Helper will help you build and refine your web development skills. It will also
 let you add new skills that will help you build skills and experience using AI.
@@ -90,18 +90,19 @@ your app once you complete these basic requirements.
   * The landing page contains these components:
     * [ ] A _header_ containing the name of the app and the current date
     * [ ] A _footer_ that links to your GitHub repo and a list of who is on the team.
-    * [ ] An input form to allow the user to select any combination of categories and search terms used to select items.
-    * [ ] A scrollable _result_ area containing the search results.
-    * [ ] A chat icon that will display a popup when clicked to allow the user to ask for
+    * [ ] A _search input form_ to allow the user to select any combination of categories and specify search terms used to select items. Categories and search terms may be used by
+    themselves or in combination with one another to filter the results.
+    * [ ] A scrollable _search results area_ containing the search results.
+    * [ ] A _chat icon_ that will display a popup when clicked to allow the user to ask for
     help from the AI agent you build into the app.
 
     ![Page Wireframe](./assets/Page_Wireframe.png)
 
-    But, this wireframe doesn't provide many specifics. That is right! Your
+    But, this wireframe doesn't provide many specifics! That's correct! Your
     task is to design your app from the detailed specifications we provide and
     apply your own styling.
 
-* Pentagram input form
+* Search input form
 
   * [ ] The form must include and input field cooresponding to each part of the
   Pentagram methodology.
