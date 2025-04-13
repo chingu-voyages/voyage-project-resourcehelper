@@ -90,7 +90,7 @@ your app once you complete these basic requirements.
   * The landing page contains these components:
     * [ ] A _header_ containing the name of the app and the current date
     * [ ] A _footer_ that links to your GitHub repo and a list of who is on the team.
-    * [ ] A _search input form_ to allow the user to select any combination of categories and specify search terms used to select items. Categories and search terms may be used by
+    * [ ] A _search input form_ to allow the user to select any combination of tags and specify search terms used to select items. tags and search terms may be used by
     themselves or in combination with one another to filter the results.
     * [ ] A scrollable _search results area_ containing the search results.
     * [ ] A _chat icon_ that will display a popup when clicked to allow the user to ask for
@@ -102,75 +102,116 @@ your app once you complete these basic requirements.
     task is to design your app from the detailed specifications we provide and
     apply your own styling.
 
-* Search input form
+* Search Input Form
 
-  * [ ] The form must include and input field cooresponding to each part of the
-  Pentagram methodology.
-  * [ ] The user must enter data into all Pentagram fields.
-  * [ ] The user must be allowed to update any or Pentagram field between submissions.
-  * [ ] Include a reset button for each Pentagram input field to allow it to be cleared
-  independently from other form fields.
-  * [ ] Include a button to submit the prompt through the Gemini API.
+  * [ ] The form must include input fields to allow users to search for resources by either tag name or words in the title of the resource.
+  * [ ] The form should include a button to submit the search request.
+  * [ ] The form should include a button to clear the contents of the search fields. 
+  * [ ] The user must be allowed to update any search fields between submissions.
   
-* Result
+* Search Results Area
 
-  * [ ] Format the output returned by Gemini so it is readable and displayed as left justified
-  paragraphs and lists. Note. Gemini will return these, but a `console.log` of the result text
-  will not necessarily be properly formatted. You will need to read the documentation and
-  research the returned data to determine how to implement this feature.
+  * [ ] When the user clickes the submit button the Search Results Area should be updated with a list of the resources matching the search criteria.
+  * [ ] Since the number of resources to be display could be large you should paginate the results display -- display a subset of the results and allow the user to page forward and backward through them a page at a time.
+  * [ ] It is valid for the user to enter any combination of search fields or none at all to retrieve all resources.
+  * [ ] When the clear button is clicked in the search input form any results from a prior query should be cleared 
+
+* Resources Server API
+
+  Your app must use the Resources Server (`https://seshatbe.up.railway.app`) we've provided to retrieve
+  the tag list and resources from the
+  [`#resource-treasures` channel](https://discord.com/channels/330284646283608064/1048165970566467664)
+  in the Chingu Discord server. The routes this server supports are:
+
+  * Tag List:</br>
+    **Route**: `/tags`
+    **Returns**: Array of JSON elements in the format:
+    ```
+    [
+      {"tag":"General","id":"1048176100892737618"},
+      {"tag":"HTML","id":"1048172063774486548"},
+      ...
+    ]
+    ```
+
+  * Resources: </br>
+  **Route**: `/resources`
+    **Returns**: Array of JSON elements in the format:
+    ```
+    [
+      {
+        "author":"andresc1310",
+        "name":"Lazygit",
+        "appliedTags":["1048174499905937428"],
+        "url":"https://www.freecodecamp.org/news/how-to-use-lazygit-to-improve-your-git-workflow/",
+        "createdAt":"2025-04-12T18:04:11.224Z",
+        "id":"1360676892071559340"
+      },{
+        "author":"jdmedlock",
+        "name":"Faster shuffling in Go with batching",
+        "appliedTags":["1303349202444615730"],
+        "url":"https://lemire.me/blog/2025/04/06/faster-shuffling-in-go-with-batching/",
+        "createdAt":"2025-04-10T18:39:07.722Z",
+        "id":"1359960909690175570"
+      }, {
+      ...
+    ]
+    ```
+
+    Don't be surprised! The server will only return a limited number of the most
+    recently added resources in the `#resource-treasures` channel.
+
+* AI Chat Icon
+
+  * [ ] When clicked, display a popup dialog to allow the user to chat with the AI about this application. This conversation is intended to replace traditional documentation. Instead, it let's the user ask questions like "What tags can I search for?" and "How can I scroll through the results?".
+  * [ ] The popup dialog has three components to support this:
+
+      ![AI Chat Dialog](./assets/ai_dialog.png)
+
+    - A conversion display area that contains a infinite scroll containing the questions the user asked followed by the response from the AI.
+    - An input field where the user may enter their question
+    - A button the user may click to submit their question.
+
+    To implement this requirement you'll need to use the
+    [Google Gemini API](https://ai.google.dev/api?lang=node) to create a context for your
+    application and to allow the users to ask questions using it. You can find and example
+    of how to do this in the `src` directory of this repo. 
+
+    This is just an example, for your app you will need to create context information about
+    it Google Gemini will use to answer your users questions.
 
 * Validation and Error Handling
 
-  * [ ] Display an error message for invalid inputs (e.g. an empty Pentagram input field).
+  * [ ] Display an error message for invalid inputs (e.g. an undefined tag).
   * [ ] The user must be informed about errors at the time they are detected.
-  * [ ] Provide clear error messages when they are corrected.
+  * [ ] Error messages should be cleared when they are corrected.
 
 * User Interface and Experience (UI/UX)
 
-* [ ] In general, you will find these [UI design principles](https://www.justinmind.com/ui-design/principles) helpful.
-* [ ] If your team doesn't include a dedicated UI/UX Designer you will [find
+  * [ ] In general, you will find these [UI design principles](https://www.justinmind.com/ui-design/principles) helpful.
+  * [ ] If your team doesn't include a dedicated UI/UX Designer you will [find
 these tips](https://github.com/chingu-voyages/Handbook/blob/main/docs/resources/techresources/uiux.md)
 helpful.
 
 ### Stretch Goals (Not Required)
 
-Once you complete the basic application begin enhancing it with any of the
-following optional stretch goals. Make sure that any of these you choose to
-implement match the capabilities of your tier and the resources (e.g. time &
-knowledge) availble to your team.
+Once you complete the basic application you may enhance it with any of the
+following _optional_ stretch goals. Make sure that any of these you choose
+match the capabilities of your tier.
 
-* [ ] Since there may be a large number of items returned through the API consider
-retrieving the min _pages_ to limit the performance impact of retrieving and displaying
-everything.
+* [ ] Enhance the search capability by allowing any or all of the following: 
+  - Allow the user to specify partial words for a title search
+  - Allow the user to search by author name, in addition to category and title
 
 * [ ] Personalize the application by collecting the user's name and including it
 in labels, alerts, and error message.
 
-* [ ] Add functionality export the prompt and result as a PDF or CSV file.
-
-* [ ] Add functionality to allow users to rate and save prompts and their results.
-
-* [ ] Add a dashboard to display metrics including, but not limited to,
-the following:
-  * Number of prompts created in the current session
-  * Number of errors detected in the current session
-  * Percentage of errors to successful executions in the current session
-  * Average and total number of characters for results in the current session
-  * Number of successful and unsuccessful calls to the Gemini API in the
-  current session
-
-* [ ] Supplement the dashboard metrics with cooresponding graphs of your choice.
-
-* [ ] If you created a dashboard (see above) and have implmented a backend
-application component store all prompts and results in a database and include
-lifetime versions of the session metrics.
-
 * [ ] Implement full-stack application that makes the calls to the Gemini API
 via a BE route. Frontend and backend are required.
 
-* [ ] Implement a register & login feature.
+* [ ] Implement a user signup & login feature.
 
-* [ ] Authenticate users via Google or GitHub OAuth securely.
+* [ ] Authenticate users via Google or GitHub OAuth to increase the security of your app.
   * [Github Authentication](https://www.npmjs.com/package/oauth-client-github)
   * [Google Authentication](https://developers.google.com/identity/gsi/web/guides/get-google-api-clientid)
   A detailed guide on how to obtain an API key and perform Google Authentication.
