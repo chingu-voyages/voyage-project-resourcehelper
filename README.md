@@ -27,7 +27,7 @@ from the
 [#resource-treasures](https://discord.com/channels/330284646283608064/1048165970566467664) 
 channel in Chingus Discord community.
 
-In addition, you'll be using the free tier of the
+An optional goal is to use the free tier of the
 [Google Gemini API](https://ai.google.dev/api?lang=node) to implement an interactive AI
 agent into the app to allow users to get help information. This means you will need to add 
 _context_ about this app in your API calls. You can find simplified example of how to do
@@ -93,7 +93,7 @@ your app once you complete these basic requirements.
     * [ ] A _search input form_ to allow the user to select any combination of tags and specify search terms used to select items. tags and search terms may be used by
     themselves or in combination with one another to filter the results.
     * [ ] A scrollable _search results area_ containing the search results.
-    * [ ] A _chat icon_ that will display a popup when clicked to allow the user to ask for
+    * [ ] Optionally, a _chat icon_ that will display a popup when clicked to allow the user to ask for
     help from the AI agent you build into the app.
 
     ![Page Wireframe](./assets/Page_Wireframe.png)
@@ -161,7 +161,7 @@ your app once you complete these basic requirements.
     Don't be surprised! The server will only return a limited number of the most
     recently added resources in the `#resource-treasures` channel.
 
-* AI Chat Icon
+* Optional - AI Chat Icon
 
   * [ ] When clicked, display a popup dialog to allow the user to chat with the AI about this application. This conversation is intended to replace traditional documentation. Instead, it let's the user ask questions like "What tags can I search for?" and "How can I scroll through the results?".
   * [ ] The popup dialog has three components to support this:
@@ -198,6 +198,10 @@ helpful.
 Once you complete the basic application you may enhance it with any of the
 following _optional_ stretch goals. Make sure that any of these you choose
 match the capabilities of your tier.
+
+* [ ] Add an AI chatbot users can utilize to get help using the application.
+Although this is and optional requirement, we strongly suggest Tier 2 & Tier 3
+teams attempt this. 
 
 * [ ] Enhance the search capability by allowing any or all of the following: 
   - Allow the user to specify partial words for a title search
