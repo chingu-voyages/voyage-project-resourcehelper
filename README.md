@@ -1,5 +1,5 @@
 # voyage-project-techresources
-Chingu Voyage Project - Technical Resource Finder
+Chingu Voyage Project - Resource Helper
 
 ## Table of Contents
 
