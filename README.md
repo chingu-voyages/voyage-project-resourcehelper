@@ -1,4 +1,4 @@
-# voyage-project-techresources
+# voyage-project-resourcehelper
 Chingu Voyage Project - Resource Helper
 
 ## Table of Contents
