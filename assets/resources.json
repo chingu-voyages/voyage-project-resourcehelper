@@ -1,0 +1,610 @@
+[
+    {
+        "author": "andresc1310",
+        "name": "Neovim btw",
+        "appliedTags": [
+            "1048176100892737618"
+        ],
+        "url": "https://youtu.be/h_1qim3_A1w?si=Xx9PLZBNaaJuxSqN",
+        "createdAt": "2025-05-21T17:32:01.467Z",
+        "id": "1374801924842586262"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "Implementing a Custom Reactive Library in Vanilla JS",
+        "appliedTags": [
+            "1048172157009678337"
+        ],
+        "url": "https://dev.to/omriluz1/implementing-a-custom-reactive-library-in-vanilla-js-4i2o",
+        "createdAt": "2025-05-21T13:08:36.694Z",
+        "id": "1374735634819846218"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "Best Practices for JavaScript Modularization",
+        "appliedTags": [
+            "1048172157009678337"
+        ],
+        "url": "https://dev.to/omriluz1/best-practices-for-javascript-modularization-22b6",
+        "createdAt": "2025-05-20T12:50:53.361Z",
+        "id": "1374368787012518079"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "Data vs. Findings vs. Insights in UX",
+        "appliedTags": [
+            "1185919811176382536"
+        ],
+        "url": "https://smart-interface-design-patterns.com/articles/data-findings-insights",
+        "createdAt": "2025-05-20T12:48:40.683Z",
+        "id": "1374368230520520804"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "From Next.js to Astro: A Page Size Comparison",
+        "appliedTags": [
+            "1048172157009678337",
+            "1048176100892737618"
+        ],
+        "url": "I'm posting this not to be anti-Next.js, but to show an example of how to conduct a comparison and gather meaningful metrics when faced with an important decision.\n\nIt is incorrect to label any library or tool as `bad`. They all have pros and cons and use cases they excel at and others they aren't good for.\nhttps://alan.norbauer.com/articles/astro-vs-nextjs-page-size",
+        "createdAt": "2025-05-20T12:47:10.129Z",
+        "id": "1374367850709647430"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "Serving Large Files in Rails with a Reverse Proxy Server",
+        "appliedTags": [
+            "1198230083568140350"
+        ],
+        "url": "https://www.writesoftwarewell.com/serving-large-files-rails-nginx-thruster",
+        "createdAt": "2025-05-20T12:26:28.534Z",
+        "id": "1374362643082510406"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "JavaScript, when is this?",
+        "appliedTags": [
+            "1048172157009678337"
+        ],
+        "url": "`this` is no longer used as much today in JS code as it once was. But, it's still something every JS Developer should understand.\nhttps://piccalil.li/blog/javascript-when-is-this",
+        "createdAt": "2025-05-20T12:11:36.017Z",
+        "id": "1374358899595153489"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "The principles of database design, or, the Truth is out there",
+        "appliedTags": [
+            "1050431949119950880"
+        ],
+        "url": "https://ebellani.github.io/blog/2025/the-principles-of-database-design-or-the-truth-is-out-there",
+        "createdAt": "2025-05-20T12:08:36.916Z",
+        "id": "1374358148390850663"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "I think the ergonomics of generators is growing on me.",
+        "appliedTags": [
+            "1048172157009678337"
+        ],
+        "url": "https://macarthur.me/posts/generators/",
+        "createdAt": "2025-05-17T12:26:25.699Z",
+        "id": "1373275467594858496"
+    },
+    {
+        "author": "msrissaxo",
+        "name": "The (written) unwritten guide to pull requests",
+        "appliedTags": [
+            "1048174538191544320",
+            "1048176100892737618",
+            "1048174499905937428"
+        ],
+        "url": "https://www.atlassian.com/blog/git/written-unwritten-guide-pull-requests",
+        "createdAt": "2025-05-17T02:34:23.617Z",
+        "id": "1373126477184237629"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "GitHub Issues search now supports nested queries and boolean operators: Here’s how we (re)built it",
+        "appliedTags": [
+            "1048174538191544320"
+        ],
+        "url": "https://github.blog/developer-skills/application-development/github-issues-search-now-supports-nested-queries-and-boolean-operators-heres-how-we-rebuilt-it",
+        "createdAt": "2025-05-16T15:06:24.413Z",
+        "id": "1372953339653918891"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "Working on Complex Systems",
+        "appliedTags": [
+            "1048176100892737618"
+        ],
+        "url": "https://www.thecoder.cafe/p/complex-systems",
+        "createdAt": "2025-05-16T15:04:36.438Z",
+        "id": "1372952886774075412"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "How to have the browser pick a contrasting color in CSS",
+        "appliedTags": [
+            "1048172108204744765"
+        ],
+        "url": "https://webkit.org/blog/16929/contrast-color/",
+        "createdAt": "2025-05-15T16:55:35.351Z",
+        "id": "1372618428413771878"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "Practical Data Modeling with dbt: Star vs. Snowflake Compared",
+        "appliedTags": [
+            "1050431949119950880"
+        ],
+        "url": "https://p-munhoz.github.io/blog/dbt/star-vs-snowflake-schema-dbt",
+        "createdAt": "2025-05-15T16:50:03.109Z",
+        "id": "1372617034889826304"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "MongoDB Views or Materialized Views: When to Use?",
+        "appliedTags": [
+            "1048176100892737618"
+        ],
+        "url": "https://dev.to/mayallo/mongodb-views-or-materialized-views-when-to-use-46d8",
+        "createdAt": "2025-05-14T13:58:25.943Z",
+        "id": "1372211457579810933"
+    },
+    {
+        "author": "firstnamenika",
+        "name": "Which Go router should I use?",
+        "appliedTags": [
+            "1303349202444615730"
+        ],
+        "url": "Alex Edwards is great, I learnt so much from his blog and his books!",
+        "createdAt": "2025-05-14T14:56:44.949Z",
+        "id": "1372226133474672770"
+    },
+    {
+        "author": "namishasharma",
+        "name": "Rice Vs Ice Vs MosCow",
+        "appliedTags": [
+            "1048176100892737618"
+        ],
+        "url": "Ever feel overwhelmed deciding what to build or fix next? Here’s a super-simple cheat sheet comparing three easy prioritisation methods you can use today:\n\n1/ RICE — Use when you have some data\n\n✔️ Great for ranking big #projects objectively\n\n\n2/ ICE — Use when you need a quick decision\n\n✔️ Perfect for fast experiments with limited info\n\n\n3/ MoSCoW — Use when you just want clear categories\n\nLabel tasks as Must / Should / Could / Won’t\n\n✔️ Ideal for aligning teams and sorting backlog\n\n\n👉 Quick tip: Pick the tool that fits your need —\n\nRICE for data‑driven decisions, ICE for speed, MoSCoW for simplicity.\n\n<:checkmark:1047618859173163139>",
+        "createdAt": "2025-05-13T14:52:10.160Z",
+        "id": "1371862593060212736"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "Best Practices for Creating a Modern npm Package with Security in Mind",
+        "appliedTags": [
+            "1048172489555071017",
+            "1048172157009678337"
+        ],
+        "url": "https://snyk.io/blog/best-practices-create-modern-npm-package/",
+        "createdAt": "2025-05-13T14:37:42.831Z",
+        "id": "1371858955218718830"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "Hyper-Typing",
+        "appliedTags": [
+            "1048172283451162664"
+        ],
+        "url": "https://pscanf.com/s/341",
+        "createdAt": "2025-05-13T13:36:01.453Z",
+        "id": "1371843430514294854"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "StorageManager API for Managing Offline Data",
+        "appliedTags": [
+            "1048172157009678337"
+        ],
+        "url": "https://dev.to/omriluz1/storagemanager-api-for-managing-offline-data-oon",
+        "createdAt": "2025-05-13T13:33:47.608Z",
+        "id": "1371842869127811265"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "The Secret to Effective UX Workshops",
+        "appliedTags": [
+            "1185919811176382536"
+        ],
+        "url": "https://uxsurvivalguide.substack.com/p/the-secret-to-effective-ux-workshops",
+        "createdAt": "2025-05-13T13:31:52.538Z",
+        "id": "1371842386489245766"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "Ditch the Log: Supercharge Your Debugging Game with These Modern Tricks",
+        "appliedTags": [
+            "1048172157009678337"
+        ],
+        "url": "https://dev.to/sakethkowtha/ditch-the-log-supercharge-your-debugging-game-with-these-modern-tricks-4m1d?context=digest",
+        "createdAt": "2025-05-12T15:57:38.167Z",
+        "id": "1371516680450347038"
+    },
+    {
+        "author": "andresc1310",
+        "name": "Why Fedora might be a better windows replacement",
+        "appliedTags": [
+            "1048176100892737618"
+        ],
+        "url": "https://www.howtogeek.com/why-fedora-might-be-a-better-windows-replacement-than-linux-mint/",
+        "createdAt": "2025-05-12T01:00:05.760Z",
+        "id": "1371290807084253274"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "The power of the spread and rest syntax in JavaScript",
+        "appliedTags": [
+            "1048172157009678337"
+        ],
+        "url": "https://allthingssmitty.com/2025/05/05/the-power-of-spread-and-rest-patterns-in-javascript.md/",
+        "createdAt": "2025-05-11T00:59:19.076Z",
+        "id": "1370928223411765390"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "Monorepo vs Polyrepo",
+        "appliedTags": [
+            "1048176100892737618"
+        ],
+        "url": "https://github.com/joelparkerhenderson/monorepo-vs-polyrepo",
+        "createdAt": "2025-05-10T12:55:18.962Z",
+        "id": "1370746022367596574"
+    },
+    {
+        "author": "masihtak",
+        "name": "7 really good reasons not to use TypeScript",
+        "appliedTags": [
+            "1048172157009678337",
+            "1048172283451162664",
+            "1048176100892737618",
+            "1048172208079519764",
+            "1050431772405534750"
+        ],
+        "url": "Thank you <@398682088905375744>!",
+        "createdAt": "2025-05-10T22:41:04.109Z",
+        "id": "1370893431798366308"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "Screen Orientation API for Responsive Design",
+        "appliedTags": [
+            "1185919811176382536",
+            "1048172157009678337"
+        ],
+        "url": "https://dev.to/omriluz1/screen-orientation-api-for-responsive-design-3oop?context=digest",
+        "createdAt": "2025-05-08T22:49:39.798Z",
+        "id": "1370170819023605780"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "The REAL Reason You Should Use Type Hints in Python",
+        "appliedTags": [
+            "1048172446408245249"
+        ],
+        "url": "https://www.youtube.com/watch?v=0oBLMwHdZ2Y",
+        "createdAt": "2025-05-08T15:32:10.481Z",
+        "id": "1370060721408311396"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "Add sound effects to your React apps",
+        "appliedTags": [
+            "1048172208079519764"
+        ],
+        "url": "https://www.reactsounds.com/",
+        "createdAt": "2025-05-07T21:11:15.280Z",
+        "id": "1369783665814671510"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "Converting values to strings in JavaScript has pitfalls",
+        "appliedTags": [
+            "1048172157009678337"
+        ],
+        "url": "https://2ality.com/2025/04/stringification-javascript.html",
+        "createdAt": "2025-05-07T21:10:02.252Z",
+        "id": "1369783359512907907"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "Masonry In CSS: Should Grid Evolve Or Stand Aside For A New Module?",
+        "appliedTags": [
+            "1185919811176382536",
+            "1048172108204744765"
+        ],
+        "url": "https://www.smashingmagazine.com/2025/05/masonry-css-should-grid-evolve-stand-aside-new-module/",
+        "createdAt": "2025-05-07T21:05:01.319Z",
+        "id": "1369782097308422316"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "Easier layout with margin-trim",
+        "appliedTags": [
+            "1185919811176382536",
+            "1048172108204744765"
+        ],
+        "url": "https://webkit.org/blog/16854/margin-trim/",
+        "createdAt": "2025-05-07T21:03:21.456Z",
+        "id": "1369781678452637871"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "Operator Lookup",
+        "appliedTags": [
+            "1048172157009678337"
+        ],
+        "url": "Want to know what a JS operator does? Get your answer here...\nhttps://www.joshwcomeau.com/operator-lookup/",
+        "createdAt": "2025-05-06T23:08:11.925Z",
+        "id": "1369450707890995200"
+    },
+    {
+        "author": "timdehof",
+        "name": "GSAP is now 100% FREE!",
+        "appliedTags": [
+            "1185919811176382536",
+            "1048172157009678337",
+            "1048172208079519764"
+        ],
+        "url": "https://gsap.com/blog/3-13/",
+        "createdAt": "2025-05-03T04:30:10.935Z",
+        "id": "1368082186229514370"
+    },
+    {
+        "author": "andresc1310",
+        "name": "RDBMS key concepts",
+        "appliedTags": [
+            "1050431949119950880"
+        ],
+        "url": "https://www.freecodecamp.org/news/learn-relational-database-basics-key-concepts-for-beginners/",
+        "createdAt": "2025-05-02T22:07:32.065Z",
+        "id": "1367985889749241938"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "OneUptime - OSS Observability Platform",
+        "appliedTags": [
+            "1048176100892737618"
+        ],
+        "url": "https://github.com/OneUptime/oneuptime",
+        "createdAt": "2025-05-02T15:22:12.465Z",
+        "id": "1367883885953679432"
+    },
+    {
+        "author": "andresc1310",
+        "name": "Git Killer???",
+        "appliedTags": [
+            "1048174499905937428"
+        ],
+        "url": "https://youtu.be/cZqFaMlufDY?si=nSShTvLyAT77WNa5",
+        "createdAt": "2025-05-02T15:04:04.987Z",
+        "id": "1367879324740354048"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "What Really Happens When You Drop a Column in Postgres",
+        "appliedTags": [
+            "1050431949119950880"
+        ],
+        "url": "https://www.thenile.dev/blog/drop-column",
+        "createdAt": "2025-05-01T14:30:37.011Z",
+        "id": "1367508514813247548"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "Good vs Great Animations",
+        "appliedTags": [
+            "1185919811176382536",
+            "1048172108204744765"
+        ],
+        "url": "https://emilkowal.ski/ui/good-vs-great-animations",
+        "createdAt": "2025-05-01T12:33:40.976Z",
+        "id": "1367479087429324830"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "What Does \"use client\" Do?",
+        "appliedTags": [
+            "1048172208079519764"
+        ],
+        "url": "https://overreacted.io/what-does-use-client-do/",
+        "createdAt": "2025-05-01T12:30:37.335Z",
+        "id": "1367478317183275068"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "React Labs: View Transitions, Activity, and more",
+        "appliedTags": [
+            "1048172208079519764"
+        ],
+        "url": "(note that these are experimental features!)\nhttps://react.dev/blog/2025/04/23/react-labs-view-transitions-activity-and-more",
+        "createdAt": "2025-05-01T12:28:58.327Z",
+        "id": "1367477901913620530"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "The canvas element",
+        "appliedTags": [
+            "1185919811176382536",
+            "1048172063774486548",
+            "1048172108204744765"
+        ],
+        "url": "https://heydonworks.com/article/the-canvas-element/",
+        "createdAt": "2025-05-01T12:27:00.242Z",
+        "id": "1367477406629101598"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "Time Travel with JavaScript",
+        "appliedTags": [
+            "1185919811176382536",
+            "1048172157009678337"
+        ],
+        "url": "Using a powerful animation trick to create a 3D split flap display\nhttps://craftofui.substack.com/p/time-travel-with-javascript",
+        "createdAt": "2025-05-01T12:25:09.194Z",
+        "id": "1367476940860166195"
+    },
+    {
+        "author": "andresc1310",
+        "name": "Git mailing list Part 1",
+        "appliedTags": [
+            "1048174499905937428"
+        ],
+        "url": "https://youtu.be/mjYac9SwIK0?si=X3dPm0WMf5KrtV_u",
+        "createdAt": "2025-04-28T18:41:15.831Z",
+        "id": "1366484428599070740"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "Technical Debt as Theory Building and Practice",
+        "appliedTags": [
+            "1048176100892737618"
+        ],
+        "url": "https://www.usenix.org/conference/srecon25americas/presentation/lam",
+        "createdAt": "2025-04-28T13:25:38.122Z",
+        "id": "1366404998090588201"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "Smarter Search at Airbnb: How Embedding-Based Retrieval Works",
+        "appliedTags": [
+            "1048176100892737618"
+        ],
+        "url": "https://stacksweep.substack.com/p/smarter-search-at-airbnb-how-embedding",
+        "createdAt": "2025-04-28T13:22:45.032Z",
+        "id": "1366404272098512947"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "Decentralized Governance in Open Source: Bridging Innovation and Community",
+        "appliedTags": [
+            "1048176100892737618"
+        ],
+        "url": "https://dev.to/bobcars/decentralized-governance-in-open-source-bridging-innovation-and-community-181f",
+        "createdAt": "2025-04-25T17:16:52.397Z",
+        "id": "1365376027420786809"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "So, You Want to Give Up CSS Pre- and Post-Processors…",
+        "appliedTags": [
+            "1048172108204744765"
+        ],
+        "url": "https://css-tricks.com/so-you-want-to-give-up-css-pre-and-post-processors/",
+        "createdAt": "2025-04-24T16:38:25.102Z",
+        "id": "1365003962058539098"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "Dealing with the challenges of the agile methodology in UX design",
+        "appliedTags": [
+            "1185919811176382536"
+        ],
+        "url": "https://blog.logrocket.com/ux-design/challenges-agile-methodology-ux-design",
+        "createdAt": "2025-04-24T16:27:26.634Z",
+        "id": "1365001200243839127"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "Stop Writing `__init__` Methods",
+        "appliedTags": [
+            "1048172446408245249"
+        ],
+        "url": "https://blog.glyph.im/2025/04/stop-writing-init-methods.html",
+        "createdAt": "2025-04-24T16:26:52.096Z",
+        "id": "1365001055380701224"
+    },
+    {
+        "author": "andresc1310",
+        "name": "Git: A guide to greatness",
+        "appliedTags": [
+            "1048174499905937428"
+        ],
+        "url": "https://x.com/playful_program/status/1915150416213311835?s=46&t=ydwDjMJw41mWwLgRMQFDbw",
+        "createdAt": "2025-04-23T21:47:59.537Z",
+        "id": "1364719481020219444"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "How to run Python in production",
+        "appliedTags": [
+            "1048172446408245249"
+        ],
+        "url": "https://ashishb.net/programming/python-in-production-2",
+        "createdAt": "2025-04-23T14:48:01.922Z",
+        "id": "1364613794562572382"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "First Principles for Software Engineers",
+        "appliedTags": [
+            "1048176100892737618"
+        ],
+        "url": "https://addyosmani.com/blog/first-principles-thinking-software-engineers",
+        "createdAt": "2025-04-23T14:14:22.686Z",
+        "id": "1364605325273075782"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "Coding as Craft: Going Back to the Old Gym",
+        "appliedTags": [
+            "1352255739208536064",
+            "1048176100892737618"
+        ],
+        "url": "https://cekrem.github.io/posts/coding-as-craft-going-back-to-the-old-gym",
+        "createdAt": "2025-04-23T14:11:46.567Z",
+        "id": "1364604670462525594"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "Scale Your Project with Layered React Structure",
+        "appliedTags": [
+            "1048172208079519764"
+        ],
+        "url": "https://playfulprogramming.com/posts/layered-react-structure",
+        "createdAt": "2025-04-23T14:10:54.574Z",
+        "id": "1364604452388208742"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "How to write error messages that actually help users rather than frustrate them",
+        "appliedTags": [
+            "1185919811176382536"
+        ],
+        "url": "https://piccalil.li/blog/how-to-write-error-messages-that-actually-help-users-rather-than-frustrate-them",
+        "createdAt": "2025-04-23T14:09:22.368Z",
+        "id": "1364604065648218264"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "Python's new t-strings",
+        "appliedTags": [
+            "1048172446408245249"
+        ],
+        "url": "https://davepeck.org/2025/04/11/pythons-new-t-strings/",
+        "createdAt": "2025-04-22T12:41:12.204Z",
+        "id": "1364219489226326097"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "How to Write Blog Posts that Developers Read",
+        "appliedTags": [
+            "1048176100892737618"
+        ],
+        "url": "https://refactoringenglish.com/chapters/write-blog-posts-developers-read",
+        "createdAt": "2025-03-28T13:54:53.564Z",
+        "id": "1355178337114390700"
+    },
+    {
+        "author": "jdmedlock",
+        "name": "You Don’t Know Everything, and That Is Okay",
+        "appliedTags": [
+            "1048176100892737618"
+        ],
+        "url": "https://spin.atomicobject.com/you-dont-know-everything-its-ok",
+        "createdAt": "2025-03-24T18:19:11.784Z",
+        "id": "1353795299847573575"
+    }
+]
